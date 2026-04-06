@@ -102,3 +102,10 @@ displayStudent({
     age: 15,
     grade: Grade.junior
 })
+
+function identity(value: unknown): unknown {
+    return value;
+}
+
+const dentitiy: unknown = identity("Hello, Abraham");
+console.log(dentitiy);
