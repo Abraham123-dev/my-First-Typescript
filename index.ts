@@ -103,6 +103,7 @@ displayStudent({
     grade: Grade.junior
 })
 
+// value
 function identity(value: unknown): unknown {
     return value;
 }
